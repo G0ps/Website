@@ -1,0 +1,153 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* General Section Styling */
+  section {
+    margin-bottom: 2rem;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Section */
+  #heading {
+    text-align: center;
+    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+  }
+  
+  #heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #heading p {
+    font-size: 1.2rem;
+  }
+  
+  /* Buttons */
+  button {
+    cursor: pointer;
+    background: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background: #1f6391;
+  }
+  
+  /* API Key Section */
+  #api-key-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #api-key {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Text Input Section */
+  #text-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #paragraph-to-summarise {
+    width: 90%;
+    max-width: 600px;
+    height: 150px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  /* Text Output Section */
+  #text-output {
+    padding: 20px;
+  }
+  
+  #text-output h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+  }
+  
+  #summary {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* "Try now" Button */
+  #try-now {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    background: #e67e22;
+    border: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  #try-now:hover {
+    background: #d35400;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #heading h1 {
+      font-size: 2rem;
+    }
+    #heading p {
+      font-size: 1rem;
+    }
+    button {
+      width: 90%;
+    }
+    #api-key,
+    #paragraph-to-summarise {
+      width: 100%;
+    }
+  }
+  
